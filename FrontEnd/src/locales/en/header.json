@@ -1,0 +1,8 @@
+{
+    "store": "Store",
+    "login": "Log in",
+    "signup": "Sign up",
+    "logout": "Log out",
+    "profile": "Profile",
+    "cart": "Cart"
+}

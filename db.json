@@ -1,0 +1,353 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "name": "Cyberpunk 2077",
+      "price": "29.99",
+      "currency": "Usd",
+      "description": "Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality. You can customize your character's cyberware, skillset and playstyle, and explore a vast city where the choices you make shape the story and the world around you.",
+      "youtubeTrailer": "qIcTM8WXFjk",
+      "image": "https://images-2.gog-statics.com/eb9ad39fd4c3ad026e35c9be5934b9f5d0e8c4690c26291c437b8d5316801c07_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "RolePlaying",
+          "Action",
+          "Scifi"
+        ],
+        "releaseDate": "10-12-2020",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "CD Project Red",
+        "systems": [
+          "Windows10",
+          "Windows7"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Dead Cells",
+      "price": "12.49",
+      "currency": "Usd",
+      "description": "Roguelite? Metroidvania? Roguevania! You grew up with the roguelikes, witnessed the rise of the roguelites and even the birth of the roguelite-lites? We'd now like to present for your consideration our RogueVania, the illegitimate child of a modern Roguelite (Rogue Legacy, Binding of Isaac, Enter the Gungeon, Spelunky, etc.) and an old-school MetroidVania (Castlevania: SotN and its ilk).",
+      "youtubeTrailer": "gX4cGcwmdsY",
+      "image": "https://images-3.gog-statics.com/0d0f7d38ec5227d8dfc2cf8a675ad644ce436b42b77484a95b735e91a34dcff1_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Action",
+          "Adventure",
+          "Roguelike"
+        ],
+        "releaseDate": "06-08-2018",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "Motion Twin",
+        "systems": [
+          "Windows10",
+          "Windows7"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "This War of Mine",
+      "price": "19.99",
+      "currency": "Usd",
+      "description": "This War of Mine has been giving you a thrilling experience of living through the war as a civilian for five years since its release. Numerous updates and expansions have broadened the experience and filled it with more shades and tonalities of hard civilian existence during wartime. Now, honoring the 5th anniversary of the original release, 11 bit studios proudly presents to you This War of Mine: Final Cut.",
+      "youtubeTrailer": "BALBUyoTxQM",
+      "image": "https://images-4.gog-statics.com/d34cc90e7c1cdec7bf3ceb12d9e68b33a2ffb8170cda6011321d431266c236fa_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Action",
+          "Adventure",
+          "Survival"
+        ],
+        "releaseDate": "14-11-2014",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "11 bit studios",
+        "systems": [
+          "Windows10",
+          "Windows7"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "The Witcher 3: Wild Hunt",
+      "price": "16.21",
+      "currency": "Usd",
+      "description": "The Witcher 3: Wild Hunt, the RPG epic with a mature, non-linear story that reacts to your decisions, a vast open world with a living ecosystem, dynamic and tactical combat, and stunning visuals.",
+      "youtubeTrailer": "XHrskkHf958",
+      "image": "https://images-3.gog-statics.com/60c724a052275a049d857d53957dc38e9347742f52372bb956d992b43efa8fb5_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "RolePlaying",
+          "Adventure",
+          "Fantasy"
+        ],
+        "releaseDate": "19-05-2015",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "CD Project Red",
+        "systems": [
+          "Windows10",
+          "Windows7"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Disco Elysium - The Final Cut",
+      "price": "18.49",
+      "currency": "Usd",
+      "description": "Disco Elysium - The Final Cut is the definitive edition of the groundbreaking role playing game. You’re a detective with a unique skill system at your disposal and a whole city block to carve your path across. Interrogate unforgettable characters, crack murders, or take bribes. Become a hero or an absolute disaster of a human being.",
+      "youtubeTrailer": "UWWA1jnI5N4",
+      "image": "https://images-4.gog-statics.com/b0864505790d5178ededf477e1b28d3f96ccba8082ca6c6bacc10354e40201cd_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "RolePlaying",
+          "TurnBased",
+          "Fantasy"
+        ],
+        "releaseDate": "15-10-2019",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "ZA/UM",
+        "systems": [
+          "Windows10",
+          "Windows7"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Terraria",
+      "price": "6.99",
+      "currency": "Usd",
+      "description": "Dig, Fight, Explore, Build: The very world is at your fingertips as you fight for survival, fortune, and glory. Will you delve deep into cavernous expanses in search of treasure and raw materials with which to craft ever-evolving gear, machinery, and aesthetics? Perhaps you will choose instead to seek out ever-greater foes to test your mettle in combat? Maybe you will decide to construct your own city to house the host of mysterious allies you may encounter along your travels? In the World of Terraria, the choice is yours!",
+      "youtubeTrailer": "H77Zfzy4LWw",
+      "image": "https://images-3.gog-statics.com/48c61dc4a3c9fad1f1ff47ab3ea0b1fce365f8d353545c746ea10528522b5df3_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Action",
+          "Adventure",
+          "Managerial"
+        ],
+        "releaseDate": "16-05-2011",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "Re-Logic",
+        "systems": [
+          "Windows10",
+          "Windows7"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "Risk of Rain",
+      "price": "3.36",
+      "currency": "Usd",
+      "description": "Risk of Rain is an action platformer with roguelike elements. With permanent death as a primary feature, players will have to play their best to get as far as possible. Fight on a mysterious planet with randomly spawning enemies and bosses, either alone or with 3 friends in online co-op. With over 100 items at your disposal, you will find the tools you need to find the teleporter back home. Discover a myriad of randomly chosen stages, from the desolate forest to the frozen tundra.",
+      "youtubeTrailer": "Cia3haHicFU",
+      "image": "https://images-2.gog-statics.com/8635618289182b5b5f05d49f4a23bbc782aef19c9f4aad13c68de4b9ba9bd686_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Action",
+          "RolePlaying",
+          "Platformer"
+        ],
+        "releaseDate": "08-11-2013",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "Hopoo Games",
+        "systems": [
+          "Windows10",
+          "Windows7"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Inscryption",
+      "price": "12.99",
+      "currency": "Usd",
+      "description": "From the creator of Pony Island and The Hex comes the latest mind melting, self-destructing love letter to video games. Inscryption is an inky black card-based odyssey that blends the deckbuilding roguelike, escape-room style puzzles, and psychological horror into a blood-laced smoothie. Darker still are the secrets inscrybed upon the cards...",
+      "youtubeTrailer": "BRlnP67TAf4",
+      "image": "https://images-3.gog-statics.com/d632a349e49e3a81a4b84a794aec16c266427ec4e9c03751c2e24de30aa6b762_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Adventure",
+          "CardGame",
+          "Horror"
+        ],
+        "releaseDate": "19-10-2021",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "Daniel Mullins Games",
+        "systems": [
+          "Windows10",
+          "Windows7"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "Sid Meier's Civilization IV®: The Complete Edition",
+      "price": "17.99",
+      "currency": "Usd",
+      "description": "Sid Meier’s Civilization is widely recognized as one the greatest PC game franchises of all-time. Heralded as one of the top ten games of 2005, Civilization IV is a must-have for gamers around the globe. Sid Meier’s Civilization IV: The Complete Edition includes Civilization IV, plus all three expansions: Warlords, Beyond the Sword and Colonization.",
+      "youtubeTrailer": "9gKby5Glg_I",
+      "image": "https://images-3.gog-statics.com/37ac843afc2b6d5f3b3b600483948cfc0f849a7c20a95adfcefe5c2b73caa4e7_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Strategy",
+          "TurnBased",
+          "Modern"
+        ],
+        "releaseDate": "20-10-2005",
+        "languages": [
+          "English"
+        ],
+        "company": "Faraxis Games",
+        "systems": [
+          "Windows10",
+          "Windows7"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "Hellblade: Senua's Sacrifice",
+      "price": "10.40",
+      "currency": "Usd",
+      "description": "From the makers of Heavenly Sword, Enslaved: Odyssey to the West, and DmC: Devil May Cry, comes a warrior’s brutal journey into myth and madness. Set in the Viking age, a broken Celtic warrior embarks on a haunting vision quest into Viking Hell to fight for the soul of her dead lover.",
+      "youtubeTrailer": "fBJ0ifVtK5c",
+      "image": "https://images-1.gog-statics.com/e80ba57bd7909faed61f31d878ec28745c623fba541e10867ae82f7ffaf5c6e0_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "releaseDate": "08-08-2017",
+        "languages": [
+          "English, Russian"
+        ],
+        "company": "Ninja Theory",
+        "systems": [
+          "Windows10",
+          "Windows7"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "Psychonauts 2",
+      "price": "14.60",
+      "currency": "Usd",
+      "description": "Razputin “Raz” Aquato, trained acrobat and powerful young psychic, has realized his lifelong dream of joining the international psychic espionage organization known as the Psychonauts! But these psychic super spies are in trouble. Their leader hasn't been the same since he was rescued from a kidnapping, and what's worse, there's a mole hiding in headquarters.",
+      "youtubeTrailer": "mBi9rqCZ4os",
+      "image": "https://images-4.gog-statics.com/7c3b5ccad5e5baf61586e93e13ccfa46c9fdd40afbb148e6665d8ebfde659f74_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy"
+        ],
+        "releaseDate": "25-08-2021",
+        "languages": [
+          "English"
+        ],
+        "company": "Double Fine Productions",
+        "systems": [
+          "Windows10",
+          "Windows7"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "name": "BIOMUTANT",
+      "price": "27.99",
+      "currency": "Usd",
+      "description": "BIOMUTANT® is an open-world, post-apocalyptic Kung-Fu fable RPG, with a unique martial arts styled combat system allowing you to mix melee, shooting and mutant ability action. A plague is ruining the land and the Tree-of-Life is bleeding death from its roots. The Tribes stand divided. Explore a world in turmoil and define its fate – will you be its saviour or lead it to an even darker destiny?",
+      "youtubeTrailer": "r5c0-TFP18g",
+      "image": "https://images-4.gog-statics.com/3b916bc51c79ec1f93d0531dfbe25d4e1d751a1462f23a4736bbb586554b4316_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Action",
+          "Adventure",
+          "OpenWorld"
+        ],
+        "releaseDate": "25-05-2021",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "Experiment 101",
+        "systems": [
+          "Windows10",
+          "Windows7"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "name": "Stardew Valley",
+      "price": "9.99",
+      "currency": "Usd",
+      "description": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won't be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town's most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore Stardew Valley to greatness!",
+      "youtubeTrailer": "ot7uXNQskhs",
+      "image": "https://images-4.gog-statics.com/82749fc7ad33c8169469d99c2bdce6ab99a601de598b3a014015cafe5968c217_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Simulation",
+          "RolePlaying",
+          "Managerial"
+        ],
+        "releaseDate": "26-02-2016",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "ConcernedApe",
+        "systems": [
+          "Windows10",
+          "Windows7"
+        ]
+      }
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "username": "firstpinkbeaver",
+      "email": "igor@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "username": "ggg",
+      "email": "igor@gmail.com",
+      "password": "123"
+    }
+  ]
+}

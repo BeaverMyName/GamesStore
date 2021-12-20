@@ -1,0 +1,9 @@
+{
+    "description": "Description",
+    "gameDetails": "Game details",
+    "genre": "Genre",
+    "system": "Works on",
+    "releaseDate": "Release date",
+    "company": "Company",
+    "languages": "Languages"
+}
