@@ -7,7 +7,6 @@ import GameService from "../../services/GameService";
 @injectable()
 export default class GamePageStore {
     public game: Game | null = null;
-    public test = 'Hello';
     
     public constructor(
         @inject(ownTypes.gameService) private readonly gameService: GameService

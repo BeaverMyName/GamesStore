@@ -1,6 +1,7 @@
 {
     "description": "Description",
     "gameDetails": "Game details",
+    "gameFeatures": "Game features",
     "genre": "Genre",
     "system": "Works on",
     "releaseDate": "Release date",

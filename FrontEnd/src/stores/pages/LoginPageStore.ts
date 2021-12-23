@@ -1,9 +1,8 @@
 import { makeAutoObservable } from "mobx";
 import { inject, injectable } from 'inversify';
 import ownTypes from "../../ioc/ownTypes";
-import { AuthorizationService } from "../../services/AuthorizationService";
+import { type AuthorizationService } from "../../services/AuthorizationService";
 import AuthorizationStore from "../AuthorizationStore";
-import { useNavigate } from "react-router-dom";
 
 @injectable()
 export default class LoginPageStore {

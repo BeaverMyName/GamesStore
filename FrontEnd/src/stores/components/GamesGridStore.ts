@@ -1,14 +1,15 @@
 import { inject, injectable } from "inversify";
 import { makeAutoObservable } from "mobx";
-import GameCardDto from "../../dtos/GameCardDto";
 import ownTypes from "../../ioc/ownTypes";
+import CardOfGame from "../../models/CardOfGame";
 import type { GameService } from "../../services/GameService";
 
 @injectable()
 export default class GamesGridStore {
-    public games: GameCardDto[] = [];
+    public games: CardOfGame[] = [];
     public currentPage = 1;
-    public totalPages = 2;
+    public totalPages = 0;
+    public itemsPerPage = 12;
 
     constructor(
         @inject(ownTypes.gameService) private readonly gameService: GameService
@@ -23,6 +24,7 @@ export default class GamesGridStore {
 
         try {
             const result = await this.gameService.getByPage(this.currentPage, filter);
+            this.totalPages = await this.gameService.getPagesCount(this.itemsPerPage, filter)
             this.games = result;
         } catch (e) {
             if (e instanceof Error) {

@@ -3,8 +3,8 @@ import type SignupResponse from '../dtos/SignupResponse';
 import type LoginResponse from '../dtos/LoginResponse';
 import { injectable, inject } from 'inversify';
 import ownTypes from '../ioc/ownTypes';
-import { ContentType, HttpService, MethodType } from './HttpService';
-import { KeyType, LocalStorageService } from './LocalStorageService';
+import { ContentType, type HttpService, MethodType } from './HttpService';
+import { KeyType, type LocalStorageService } from './LocalStorageService';
 
 export interface AuthorizationService {
     signup(username: string, email: string, password: string): Promise<SignupResponse>;

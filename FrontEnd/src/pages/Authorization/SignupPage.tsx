@@ -1,3 +1,4 @@
+import { Typography } from '@mui/material';
 import { observer } from 'mobx-react';
 import React from 'react';
 import { Form, Container, Row, Button } from 'react-bootstrap';
@@ -14,7 +15,7 @@ const SignupPage = observer(() => {
     const navigate = useNavigate();
 
     return (
-        <Container>
+        <Container className='pt-5'>
             <Row className='justify-content-center'>
                 <Form 
                 className='auth-form p-2 d-grid gap-4 border'
@@ -26,6 +27,9 @@ const SignupPage = observer(() => {
                     }
                 }
                 >
+                    <Typography align='center' variant="h4">
+                        {t('signup')}
+                    </Typography>
                     <Form.Control
                     type='text'
                     placeholder={t('username')}
@@ -48,9 +52,17 @@ const SignupPage = observer(() => {
                     onChange={(ev) => store.changePassword(ev.target.value)}
                     />
                     <Button variant='primary' type='submit'>
-                        {t('signup')}
+                        {t('signupNow')}
                     </Button>
                 </Form>
+                <Typography align='center' variant="h6">
+                    <Button 
+                    onClick={() => {navigate('/accounts/login')}}
+                    variant='text'
+                    >
+                        {t('loginToYourAccount')}
+                    </Button>
+                </Typography>
             </Row>
         </Container>
     );

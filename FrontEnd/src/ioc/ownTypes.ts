@@ -5,6 +5,7 @@ export default {
     localStorageService: Symbol("localStorageService"),
     userService: Symbol("userService"),
     paymentService: Symbol("paymentService"),
+    storeService: Symbol("storeService"),
     gamesGridStore: Symbol("gamesGridStore"),
     gamePageStore: Symbol("gamePageStore"),
     signupPageStore: Symbol("signupPageStore"),

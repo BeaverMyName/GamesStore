@@ -1,6 +1,5 @@
 import { inject, injectable } from "inversify";
 import { makeAutoObservable } from "mobx";
-import UserDto from "../../../dtos/UserDto";
 import ownTypes from "../../../ioc/ownTypes";
 import User from "../../../models/User";
 import UserService from "../../../services/UserService";
@@ -8,6 +7,7 @@ import UserService from "../../../services/UserService";
 @injectable()
 export default class OwnProfilePageStore {
     public user: User | null = null;
+    public tab = '1';
 
     public constructor(
         @inject(ownTypes.userService) private readonly userService: UserService
@@ -24,5 +24,9 @@ export default class OwnProfilePageStore {
                 console.log(e.message);
             }
         }
+    }
+
+    public setTab = (tab: string) => {
+        this.tab = tab;
     }
 }

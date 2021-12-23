@@ -1,6 +1,9 @@
 {
     "cart": "Cart",
-    "payment": "Payment",
+    "yourOrder": "Your order",
+    "yourPayment": "Your payment",
     "remove": "Remove",
-    "payButton": "Pay for your order now"
+    "payButton": "Pay for your order now",
+    "inCart": "In cart",
+    "buy": "Buy"
 }

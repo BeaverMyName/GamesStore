@@ -1,3 +1,4 @@
+import { Typography } from '@mui/material';
 import { observer } from 'mobx-react';
 import React from 'react';
 import { Form, Container, Row, Button } from 'react-bootstrap';
@@ -5,7 +6,6 @@ import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import { useInjection } from '../../ioc/ioc.react';
 import ownTypes from '../../ioc/ownTypes';
-import AuthorizationStore from '../../stores/AuthorizationStore';
 import { LoginPageStore } from '../../stores/pages';
 import { OwnProfilePageStore } from '../../stores/pages/profile';
 import './AuthorizationPage.css'
@@ -17,7 +17,7 @@ const LoginPage = observer(() => {
     const navigate = useNavigate();
 
     return (
-        <Container>
+        <Container className='pt-5'>
             <Row className='justify-content-center'>
                 <Form 
                 className='auth-form p-2 d-grid gap-4 border'
@@ -33,6 +33,9 @@ const LoginPage = observer(() => {
                     }
                 }
                 >
+                    <Typography align='center' variant="h4">
+                        {t('login')}
+                    </Typography>
                     <Form.Control 
                     type='text'
                     placeholder={t('username')}
@@ -48,9 +51,28 @@ const LoginPage = observer(() => {
                     onChange={(ev) => loginStore.changePassword(ev.target.value)}
                     />
                     <Button variant='primary' type='submit'>
-                        {t('login')}
+                        {t('loginNow')}
                     </Button>
                 </Form>
+                <Typography align='center' variant="h6">
+                    <Button variant='text' disabled>
+                        {t('resetPassword')}
+                    </Button>
+                    |
+                    <Button 
+                    onClick={() => {navigate('/accounts/signup')}}
+                    variant='text'
+                    >
+                        {t('signupNow')}
+                    </Button>
+                </Typography>
+                <Button 
+                style={{ width: '200px'}}
+                onClick={() => {
+                    loginStore.changeUsername('Testuser')
+                    loginStore.changePassword('123')}}>
+                    Test user
+                </Button>
             </Row>
         </Container>
     );

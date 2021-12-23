@@ -2,6 +2,10 @@
     "username": "Username",
     "email": "Email",
     "password": "Password",
+    "resetPassword": "Reset password",
+    "loginToYourAccount": "Log in to your account",
+    "loginNow": "Log in now",
+    "signupNow": "Sign up now",
     "signup": "Sign up",
     "login": "Log in"
 }

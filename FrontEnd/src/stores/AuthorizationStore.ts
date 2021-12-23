@@ -1,8 +1,8 @@
 import { injectable, inject } from "inversify";
 import { makeAutoObservable } from "mobx";
 import ownTypes from "../ioc/ownTypes";
-import { AuthorizationService } from "../services/AuthorizationService";
-import { KeyType, LocalStorageService } from "../services/LocalStorageService";
+import { type AuthorizationService } from "../services/AuthorizationService";
+import { KeyType, type LocalStorageService } from "../services/LocalStorageService";
 
 @injectable()
 export default class AuthorizationStore {

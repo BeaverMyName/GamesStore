@@ -1,11 +1,11 @@
+import { Box, Card, CardMedia, Button, CardContent, Typography, IconButton } from '@mui/material';
 import React from 'react';
-import { Container, Row, Image, Col, Button } from "react-bootstrap";
 import { useTranslation } from 'react-i18next';
 import GameCardDto from "../../dtos/GameCardDto";
 import { useInjection } from '../../ioc/ioc.react';
 import ownTypes from '../../ioc/ownTypes';
 import { CartPageStore } from '../../stores/pages';
-import './CartGameCard.css';
+import RemoveShoppingCartIcon from '@mui/icons-material/RemoveShoppingCart';
 
 interface Props {
     game: GameCardDto;
@@ -16,18 +16,29 @@ const CartGameCard = (props: Props) => {
     const store = useInjection<CartPageStore>(ownTypes.cartPageStore);
 
     return (
-        <Container className='p-2 border'>
-            <Row md={2}>
-                <Col>
-                    <Image className='game-cart-image' src={props.game.image} />
-                </Col>
-                <Col>
-                    <h4>{props.game.name}</h4>
-                    <p>{props.game.price}$</p>
-                    <Button onClick={() => store.removeGame(props.game)}>{t('remove')}</Button>
-                </Col>
-            </Row>
-        </Container>
+        <Card sx={{ display: 'flex' }}>
+            <CardMedia
+                component="img"
+                sx={{ width: 150 }}
+                image={props.game.image}
+            />
+            <CardContent>
+                <Typography variant="h6">
+                    {props.game.name}
+                </Typography>
+                <Typography>
+                    {props.game.price}$
+                    <Button 
+                        startIcon={<RemoveShoppingCartIcon />}
+                        size='small' 
+                        onClick={() => store.removeGame(props.game.id)}
+                        variant='outlined'
+                    >
+                            {t('remove')}
+                    </Button>
+                </Typography>
+            </CardContent>
+        </Card>
     );
 }
 

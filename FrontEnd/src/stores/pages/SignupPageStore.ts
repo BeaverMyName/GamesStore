@@ -1,7 +1,7 @@
 import { makeAutoObservable } from "mobx";
 import { inject, injectable } from 'inversify';
 import ownTypes from "../../ioc/ownTypes";
-import { AuthorizationService } from "../../services/AuthorizationService";
+import { type AuthorizationService } from "../../services/AuthorizationService";
 
 @injectable()
 export default class SignupPageStore {

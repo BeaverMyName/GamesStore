@@ -10,9 +10,9 @@
       "image": "https://images-2.gog-statics.com/eb9ad39fd4c3ad026e35c9be5934b9f5d0e8c4690c26291c437b8d5316801c07_product_tile_256.jpg",
       "gameDetails": {
         "genres": [
-          "RolePlaying",
+          "Role-playing",
           "Action",
-          "Scifi"
+          "Sci-fi"
         ],
         "releaseDate": "10-12-2020",
         "languages": [
@@ -21,8 +21,14 @@
         ],
         "company": "CD Project Red",
         "systems": [
-          "Windows10",
-          "Windows7"
+          "Windows"
+        ],
+        "features": [
+          "Achievements",
+          "Cloud saves",
+          "Controller support",
+          "Overlay",
+          "Single-player"
         ]
       }
     },
@@ -47,8 +53,16 @@
         ],
         "company": "Motion Twin",
         "systems": [
-          "Windows10",
-          "Windows7"
+          "Windows",
+          "MacOS"
+        ],
+        "features": [
+          "Achievements",
+          "Cloud saves",
+          "Leaderboards",
+          "Controller support",
+          "Overlay",
+          "Single-player"
         ]
       }
     },
@@ -73,8 +87,13 @@
         ],
         "company": "11 bit studios",
         "systems": [
-          "Windows10",
-          "Windows7"
+          "Windows",
+          "MacOS"
+        ],
+        "features": [
+          "Achievements",
+          "Overlay",
+          "Single-player"
         ]
       }
     },
@@ -88,7 +107,7 @@
       "image": "https://images-3.gog-statics.com/60c724a052275a049d857d53957dc38e9347742f52372bb956d992b43efa8fb5_product_tile_256.jpg",
       "gameDetails": {
         "genres": [
-          "RolePlaying",
+          "Role-playing",
           "Adventure",
           "Fantasy"
         ],
@@ -99,8 +118,13 @@
         ],
         "company": "CD Project Red",
         "systems": [
-          "Windows10",
-          "Windows7"
+          "Windows"
+        ],
+        "features": [
+          "Achievements",
+          "Cloud saves",
+          "Controller support",
+          "Single-player"
         ]
       }
     },
@@ -114,8 +138,8 @@
       "image": "https://images-4.gog-statics.com/b0864505790d5178ededf477e1b28d3f96ccba8082ca6c6bacc10354e40201cd_product_tile_256.jpg",
       "gameDetails": {
         "genres": [
-          "RolePlaying",
-          "TurnBased",
+          "Role-playing",
+          "Turn-based",
           "Fantasy"
         ],
         "releaseDate": "15-10-2019",
@@ -125,8 +149,15 @@
         ],
         "company": "ZA/UM",
         "systems": [
-          "Windows10",
-          "Windows7"
+          "Windows",
+          "MacOS"
+        ],
+        "features": [
+          "Achievements",
+          "Cloud saves",
+          "Controller support",
+          "Overlay",
+          "Single-player"
         ]
       }
     },
@@ -151,8 +182,15 @@
         ],
         "company": "Re-Logic",
         "systems": [
-          "Windows10",
-          "Windows7"
+          "Windows",
+          "MacOS"
+        ],
+        "features": [
+          "Controller support",
+          "Overlay",
+          "Single-player",
+          "Multi-player",
+          "Co-op"
         ]
       }
     },
@@ -167,7 +205,7 @@
       "gameDetails": {
         "genres": [
           "Action",
-          "RolePlaying",
+          "Role-playing",
           "Platformer"
         ],
         "releaseDate": "08-11-2013",
@@ -177,8 +215,14 @@
         ],
         "company": "Hopoo Games",
         "systems": [
-          "Windows10",
-          "Windows7"
+          "Windows"
+        ],
+        "features": [
+          "Co-op",
+          "Multi-player",
+          "Controller support",
+          "Overlay",
+          "Single-player"
         ]
       }
     },
@@ -193,7 +237,7 @@
       "gameDetails": {
         "genres": [
           "Adventure",
-          "CardGame",
+          "Card Game",
           "Horror"
         ],
         "releaseDate": "19-10-2021",
@@ -203,8 +247,13 @@
         ],
         "company": "Daniel Mullins Games",
         "systems": [
-          "Windows10",
-          "Windows7"
+          "Windows"
+        ],
+        "features": [
+          "Achievements",
+          "Cloud saves",
+          "Overlay",
+          "Single-player"
         ]
       }
     },
@@ -219,7 +268,7 @@
       "gameDetails": {
         "genres": [
           "Strategy",
-          "TurnBased",
+          "Turn-based",
           "Modern"
         ],
         "releaseDate": "20-10-2005",
@@ -228,8 +277,10 @@
         ],
         "company": "Faraxis Games",
         "systems": [
-          "Windows10",
-          "Windows7"
+          "Windows"
+        ],
+        "features": [
+          "Single-player"
         ]
       }
     },
@@ -253,8 +304,14 @@
         ],
         "company": "Ninja Theory",
         "systems": [
-          "Windows10",
-          "Windows7"
+          "Windows"
+        ],
+        "features": [
+          "Achievements",
+          "Cloud saves",
+          "Controller support",
+          "Overlay",
+          "Single-player"
         ]
       }
     },
@@ -278,8 +335,7 @@
         ],
         "company": "Double Fine Productions",
         "systems": [
-          "Windows10",
-          "Windows7"
+          "Windows"
         ]
       }
     },
@@ -295,7 +351,7 @@
         "genres": [
           "Action",
           "Adventure",
-          "OpenWorld"
+          "Open World"
         ],
         "releaseDate": "25-05-2021",
         "languages": [
@@ -304,8 +360,14 @@
         ],
         "company": "Experiment 101",
         "systems": [
-          "Windows10",
-          "Windows7"
+          "Windows"
+        ],
+        "features": [
+          "Achievements",
+          "Cloud saves",
+          "Controller support",
+          "Overlay",
+          "Single-player"
         ]
       }
     },
@@ -320,7 +382,7 @@
       "gameDetails": {
         "genres": [
           "Simulation",
-          "RolePlaying",
+          "Role-playing",
           "Managerial"
         ],
         "releaseDate": "26-02-2016",
@@ -330,8 +392,395 @@
         ],
         "company": "ConcernedApe",
         "systems": [
-          "Windows10",
-          "Windows7"
+          "Windows",
+          "MacOS"
+        ],
+        "features": [
+          "Cloud saves",
+          "Controller support",
+          "Overlay",
+          "Single-player",
+          "Multi-player",
+          "Co-op"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "name": "Horizon Zero Dawn™ Complete Edition",
+      "price": "25.99",
+      "currency": "Usd",
+      "description": "EARTH IS OURS NO MORE. Experience Aloy’s entire legendary quest to unravel the mysteries of a world ruled by deadly Machines. An outcast from her tribe, the young hunter fights to uncover her past, discover her destiny… and stop a catastrophic threat to the future. Unleash devastating, tactical attacks against unique Machines and rival tribes as you explore an open world teeming with wildlife and danger. Horizon Zero Dawn is a multi-award-winning action role-playing game – and this Complete Edition for PC includes the huge expansion The Frozen Wilds, featuring new lands, skills, weapons and Machines.",
+      "youtubeTrailer": "wzx96gYA8ek",
+      "image": "https://images-1.gog-statics.com/fb5e7a55e57bd782feb068c435061fdd180dbc4b525f0c35e5b886199e5a2f4e_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Action",
+          "Role-playing",
+          "Sci-fi"
+        ],
+        "releaseDate": "07-08-2020",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "Guerrilla",
+        "systems": [
+          "Windows"
+        ],
+        "features": [
+          "Achievements",
+          "Cloud saves",
+          "Controller support",
+          "Overlay",
+          "Single-player"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "name": "Divinity: Original Sin 2 - Definitive Edition",
+      "price": "24.99",
+      "currency": "Usd",
+      "description": "The eagerly anticipated sequel to the award-winning RPG. Gather your party. Master deep, tactical combat. Join up to 3 other players - but know that only one of you will have the chance to become a God. The Divine is dead. The Void approaches. And the powers lying dormant within you are soon to awaken. The battle for Divinity has begun. Choose wisely and trust sparingly; darkness lurks within every heart.",
+      "youtubeTrailer": "vJ4SVSm1ARQ",
+      "image": "https://images-4.gog-statics.com/126f60f164d9530b31226d7794719a505dbee4780c31f77673297b40d7c101df_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Turn-based",
+          "Role-playing",
+          "Fantasy"
+        ],
+        "releaseDate": "14-09-2017",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "Larian Studios",
+        "systems": [
+          "Windows",
+          "MacOS"
+        ],
+        "features": [
+          "Achievements",
+          "Cloud saves",
+          "Controller support",
+          "Overlay",
+          "Single-player",
+          "Co-op",
+          "Multi-player"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "name": "Wasteland 3: Colorado Collection",
+      "price": "24.28",
+      "currency": "Usd",
+      "description": "The entire Wasteland 3 experience in one colossal collection. In addition to the award-winning tactical RPG Wasteland 3, the Colorado Collection includes both The Battle of Steeltown and Cult of the Holy Detonation expansions, as well as the Colorado Survival Gear bonus items.",
+      "youtubeTrailer": "ozutH0PuRiE",
+      "image": "https://images-3.gog-statics.com/9b5c382c736910a88263f648f20022cbfd720d35fb410e5d9a4bee1f4c599a6b_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Strategy",
+          "Role-playing",
+          "Fantasy"
+        ],
+        "releaseDate": "05-10-2021",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "inXile Entertainment",
+        "systems": [
+          "Windows",
+          "MacOS"
+        ],
+        "features": [
+          "Achievements",
+          "Cloud saves",
+          "Overlay",
+          "Single-player",
+          "Co-op",
+          "Multi-player"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "name": "RimWorld",
+      "price": "16.49",
+      "currency": "Usd",
+      "description": "RimWorld is a sci-fi colony sim driven by an intelligent AI storyteller. Inspired by Dwarf Fortress, Firefly, and Dune.",
+      "youtubeTrailer": "3tDrxOASUog",
+      "image": "https://images-4.gog-statics.com/7ec3664b4bb3746797e252fd71ad48abea130abf847bf30d0b9eaf25a915da2d_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Strategy",
+          "Simulation",
+          "Sci-fi"
+        ],
+        "releaseDate": "17-10-2018",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "Ludeon Studios",
+        "systems": [
+          "Windows",
+          "MacOS"
+        ],
+        "features": [
+          "Cloud saves",
+          "Overlay",
+          "Single-player"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "name": "Papers, Please",
+      "price": "6.29",
+      "currency": "Usd",
+      "description": "Congratulations. The October labor lottery is complete. Your name was pulled. For immediate placement, report to the The Ministry of Admission at Grestin Border Checkpoint. An apartment will be provided for you and your family in East Grestin. Expect a Class-8 dwelling. Glory to Arstotzka.",
+      "youtubeTrailer": "QP5X6fcukM",
+      "image": "https://images-1.gog-statics.com/020a8d7a03e349d8beb1d80f9f52babb54a6059dd0b7145676d906cc081bbbfd_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Point-and-click",
+          "Simulation",
+          "Pazzle"
+        ],
+        "releaseDate": "08-08-2013",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "Lucas Pope",
+        "systems": [
+          "Windows",
+          "MacOS"
+        ],
+        "features": [
+          "Single-player"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "name": "Metro Exodus - Gold Edition",
+      "price": "18.00",
+      "currency": "Usd",
+      "description": "The Metro Exodus PC Enhanced Edition is out now! The radical update which harnesses the power of Ray Tracing capable GPUs to deliver an incredible visual upgrade. The Metro Exodus PC Enhanced Edition is free for all existing owners of Metro Exodus on PC, but the upgrade is so extensive, it can not be delivered as a patch - instead, it is available as a separate entitlement. Upgrades include DLSS 2.0 Inclusion, Ray Traced Emissive Lighting used throughout, FOV slider, increased framerates and display resolutions. A Ray Tracing capable GPU is the minimum spec for this beast, and you can upgrade right now for free if you own Metro Exodus.",
+      "youtubeTrailer": "A1jIoOIdf0M",
+      "image": "https://images-1.gog-statics.com/0550913e8ab28c1d22a00498f3acc46b137a1ddf797b89d176357102679157e3_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Shooter",
+          "FPP",
+          "Sci-fi"
+        ],
+        "releaseDate": "14-02-2019",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "4A Games",
+        "systems": [
+          "Windows"
+        ],
+        "features": [
+          "Achievements",
+          "Cloud saves",
+          "Controller support",
+          "Overlay",
+          "Single-player"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "name": "S.T.A.L.K.E.R.: Call of Pripyat",
+      "price": "14.99",
+      "currency": "Usd",
+      "description": "The events of S.T.A.L.K.E.R.: Call of Pripyat unfold shortly after the end of S.T.A.L.K.E.R.: Shadow of Chernobyl. Having discovered about the open path to the Zone center, the government decides to hold a large-scale military \"Fairway\" operation aimed to take the CNPP under control.",
+      "youtubeTrailer": "_IiSD6yFLwg",
+      "image": "https://images-4.gog-statics.com/34fb4652664cd6633a74fa2037d1d61d3833b45fd6ac34dfa6296dd62ae0053d_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Shooter",
+          "FPP",
+          "Survival"
+        ],
+        "releaseDate": "30-06-2006",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "Bugbear Entertainment",
+        "systems": [
+          "Windows"
+        ],
+        "features": [
+          "Multi-player",
+          "Single-player"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "name": "FlatOut 2",
+      "price": "2.67",
+      "currency": "Usd",
+      "description": "Experience the drive of your life as you throw yourself around on and off the track causing fences to shatter, tyre walls explode, water tanks and barrels fly across the track into other cars. And if anyone, including you, gets caught up in a big smash sit back and watch as the driver gets catapulted through the windscreen in spectacular effect. With over 5000 destructible objects on each track and 40 deformable pieces on every car sparks are guaranteed to fly increasing the mayhem with every lap!",
+      "youtubeTrailer": "zGpVuknnN78",
+      "image": "https://images-1.gog-statics.com/9d6a9522550d2b2e7c73d883fb8cfd73473d5f7d41278e0455958a156307bdac_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Racing",
+          "Arcade",
+          "Off-road"
+        ],
+        "releaseDate": "02-02-2010",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "GSC Game World",
+        "systems": [
+          "Windows"
+        ],
+        "features": [
+          "Multi-player",
+          "Single-player"
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "name": "Control Ultimate Edition",
+      "price": "39.99",
+      "currency": "Usd",
+      "description": "Control Ultimate Edition contains the main game and all previously released Expansions (\"The Foundation\" and \"AWE\") in one great value package. A corruptive presence has invaded the Federal Bureau of Control…Only you have the power to stop it. The world is now your weapon in an epic fight to annihilate an ominous enemy through deep and unpredictable environments. Containment has failed, humanity is at stake. Will you regain control?",
+      "youtubeTrailer": "w6bE11FrSFM",
+      "image": "https://images-1.gog-statics.com/6e6dbbd1637253394627e72c2b99f39d5c89e160ef07ca0d7823ad7603062496_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-fi"
+        ],
+        "releaseDate": "10-09-2020",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "Remedy Entertainment",
+        "systems": [
+          "Windows"
+        ],
+        "features": [
+          "Achievements",
+          "Cloud saves",
+          "Controller support",
+          "Overlay",
+          "Single-player"
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "name": "Noita",
+      "price": "10.49",
+      "currency": "Usd",
+      "description": "Noita is a magical action roguelite set in a world where every pixel is physically simulated. Fight, explore, melt, burn, freeze and evaporate your way through the procedurally generated world using spells you've created yourself. Explore a variety of environments ranging from coal mines to freezing wastelands while delving deeper in search for unknown mysteries.",
+      "youtubeTrailer": "0cDkmQ0F0Jw",
+      "image": "https://images-2.gog-statics.com/6c338ef56010d630fa2151626899534916845b6ca74240779fd24f87f18df8d5_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Action",
+          "Role-playing",
+          "Fantasy"
+        ],
+        "releaseDate": "24-09-2019",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "Nolla Games",
+        "systems": [
+          "Windows"
+        ],
+        "features": [
+          "Achievements",
+          "Cloud saves",
+          "Controller support",
+          "Overlay",
+          "Single-player"
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "name": "Heroes of Might and Magic 3: Complete",
+      "price": "8.08",
+      "currency": "Usd",
+      "description": "Includes Heroes of Might & Magic III and its expansions: Armageddon's Blade and The Shadow of Death. Murder, treachery, resurrection, savage battles and ultimately-freedom!",
+      "youtubeTrailer": "qVeBw3S020E",
+      "image": "https://images-4.gog-statics.com/a18a7017bdca7bdd14fb003a46522e320051d3e9c1fb939559a4517d90f86170_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Strategy",
+          "Turn-based",
+          "Fantasy"
+        ],
+        "releaseDate": "01-06-1999",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "New World Computing, Inc.",
+        "systems": [
+          "Windows"
+        ],
+        "features": [
+          "Cloud saves",
+          "Single-player",
+          "Multi-player"
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "name": "No Man's Sky",
+      "price": "34.99",
+      "currency": "Usd",
+      "description": "Inspired by the adventure and imagination that we love from classic science-fiction, No Man's Sky presents you with a galaxy to explore, filled with unique planets and lifeforms, and constant danger and action. In No Man's Sky, every star is the light of a distant sun, each orbited by planets filled with life, and you can go to any of them you choose. Fly smoothly from deep space to planetary surfaces, with no loading screens, and no limits. In this infinite procedurally generated universe, you'll discover places and creatures that no other players have seen before - and perhaps never will again.",
+      "youtubeTrailer": "lPXOJxFr5Zc",
+      "image": "https://images-3.gog-statics.com/7c38c498fadfcb179f58314a09eb6d566749ec8561962e63b5a3f9af448490e3_product_tile_256.jpg",
+      "gameDetails": {
+        "genres": [
+          "Adventure",
+          "Action",
+          "Sandbox"
+        ],
+        "releaseDate": "12-08-2016",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "company": "Hello Games",
+        "systems": [
+          "Windows"
+        ],
+        "features": [
+          "Achievements",
+          "Cloud saves",
+          "Controller support",
+          "Overlay",
+          "Co-op",
+          "Single-player",
+          "Multi-player"
         ]
       }
     }
@@ -345,9 +794,39 @@
     },
     {
       "id": 2,
-      "username": "ggg",
-      "email": "igor@gmail.com",
+      "username": "Testuser",
+      "email": "test_user@gmail.com",
       "password": "123"
     }
-  ]
+  ],
+  "filters": {
+    "systems": [
+      "MacOS",
+      "Windows"
+    ],
+    "languages": [
+      "English",
+      "Russian"
+    ],
+    "genres": [
+      "Action",
+      "Adventure",
+      "Role-playing",
+      "Shooter",
+      "Simulation",
+      "Strategy",
+      "Racing"
+    ],
+    "features": [
+      "Single-player",
+      "Multi-player",
+      "Co-op",
+      "Achievements",
+      "Leaderboards",
+      "Controller support",
+      "In development",
+      "Cloud saves",
+      "Overlay"
+    ]
+  }
 }

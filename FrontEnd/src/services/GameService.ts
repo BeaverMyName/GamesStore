@@ -9,6 +9,7 @@ import GameCardDto from '../dtos/GameCardDto';
 export interface GameService {
     getById(id: number): Promise<GameDto>;
     getByPage(page: number, filter: string): Promise<GameCardDto[]>;
+    getPagesCount(itemsPerPage: number, filter: string): Promise<number>;
 }
 
 @injectable()
@@ -27,5 +28,10 @@ export default class DefaultGameService implements GameService {
     public async getByPage(page: number, filter: string): Promise<GameCardDto[]> {
         const result = await this.httpService.send<GameCardDto[]>(`games?_page=${page}&_limit=12${filter}`, MethodType.GET);
         return result.data;
+    }
+
+    public async getPagesCount(itemsPerPage: number, filter: string): Promise<number> {
+        const result = await this.httpService.send<GameCardDto[]>(`games?${filter}`, MethodType.GET);
+        return Math.ceil(result.data.length / itemsPerPage);
     }
 }

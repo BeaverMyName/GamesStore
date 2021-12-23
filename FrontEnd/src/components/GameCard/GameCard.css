@@ -1,15 +1,15 @@
-.game-card {
-    width: 300px;
-    height: 220px;
-}
-
 .game-card-name {
-    font-size: 14px;
-    width: 300px;
-    height: 40px;
-}
-
-.game-card-body {
+    font-size: 16px;
+    height: 20px;
     position: relative;
     bottom: 15px;
+}
+
+.game-card-description {
+    height: 20px;
+}
+
+.game-card-price {
+    font-size: 18px;
+    font-weight: 600;
 }

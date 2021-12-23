@@ -1,7 +1,7 @@
 import { inject, injectable } from "inversify";
 import UserDto from "../dtos/UserDto";
 import ownTypes from "../ioc/ownTypes";
-import { HttpService, MethodType } from "./HttpService";
+import { type HttpService, MethodType } from "./HttpService";
 
 export interface UserService {
     getUserByUsername(username: string): Promise<UserDto>;

@@ -1,6 +1,5 @@
 import React from 'react';
 import { observer } from "mobx-react-lite";
-import { Button, Col, Container, Row } from "react-bootstrap";
 import { useInjection } from "../../ioc/ioc.react";
 import ownTypes from "../../ioc/ownTypes";
 import { CartPageStore } from "../../stores/pages";
@@ -8,7 +7,8 @@ import CartGameCard from '../../components/CartGameCard';
 import { useTranslation } from 'react-i18next';
 import AuthorizationStore from '../../stores/AuthorizationStore';
 import { useNavigate } from 'react-router-dom';
-import { PaymentService } from '../../services/PaymentService';
+import { Grid, Button, Card, Box, CardContent, Typography } from '@mui/material';
+import LocalAtmIcon from '@mui/icons-material/LocalAtm';
 
 const CartPage = observer(() => {
     const cartStore = useInjection<CartPageStore>(ownTypes.cartPageStore);
@@ -17,41 +17,49 @@ const CartPage = observer(() => {
     const navigate = useNavigate();
 
     return (
-        <Container className='p-2'>
-            <Row className='justify-content-center'>
-                {t('cart')}
-            </Row>
-            <Row md='2'>
-                <Col>
-                    {cartStore.games.map((game, key) => (
-                        <Col key={key}>
-                            <CartGameCard game={game} />
-                        </Col>
-                    ))}
-                </Col>
-                <Col>
-                    <Row>
-                        {t('payment')}
-                    </Row>
-                    <Row md={2}>
-                        <Col>
-                            {cartStore.price}
-                        </Col>
-                        <Col>
-                            <Button
-                            onClick={() => {
-                                authStore.isAuthorized ? 
-                                cartStore.doPayment() :
-                                navigate('/accounts/login');
-                            }}
-                            >
-                                {t('payButton')}
-                            </Button>
-                        </Col>
-                    </Row>
-                </Col>
-            </Row>
-        </Container>
+        <Grid container  columns={18} className='p-2'>
+            <Grid item xs={1} md={2} lg={3}/>
+            <Grid item xs={16} md={7} lg={6}>
+                <h2>{t('yourOrder')}</h2>
+                {cartStore.games.map((game, key) => (
+                    <CartGameCard key={key} game={game} />
+                ))}
+            </Grid>
+            <Grid item xs={1} md={1} lg={1}/>
+            <Grid item xs={1} md={1} lg={1}/>
+            <Grid item xs={16} md={5} lg={4}>
+                <Grid container>
+                    <Grid item xs={18} md={18} lg={18}>
+                        <h2>{t('yourPayment')}</h2>
+                        <Card>
+                            <Box>
+                                <CardContent>
+                                <Typography variant="h6">
+                                    {cartStore.price}$
+                                </Typography>
+                                <Typography>
+                                    <Button
+                                        startIcon={<LocalAtmIcon />}
+                                        size='large'
+                                        variant='outlined'
+                                        color='success'
+                                        onClick={() => {
+                                        authStore.isAuthorized ? 
+                                        cartStore.doPayment() :
+                                        navigate('/accounts/login');
+                                        }}
+                                        >
+                                            {t('payButton')}
+                                        </Button>
+                                </Typography>
+                                </CardContent>
+                            </Box>
+                        </Card>
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid item xs={1} md={2} lg={3}/>
+        </Grid>
     );
 });
 

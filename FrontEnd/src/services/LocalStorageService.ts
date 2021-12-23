@@ -8,7 +8,8 @@ export interface LocalStorageService {
 }
 
 export enum KeyType {
-    Token
+    Token,
+    Order
 }
 
 @injectable()

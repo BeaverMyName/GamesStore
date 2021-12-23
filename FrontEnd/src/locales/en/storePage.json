@@ -1,3 +1,7 @@
 {
-    "search": "Search"
+    "searchPlaceholder": "Search for...",
+    "genre": "Genre",
+    "systems": "Systems",
+    "languages": "Languages",
+    "features": "Features"
 }

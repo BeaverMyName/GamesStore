@@ -1,11 +1,11 @@
 import { observer } from 'mobx-react';
 import React, { useEffect } from 'react';
-import { Row, Col, Container } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import GameCard from '../GameCard';
 import { useInjection } from '../../ioc/ioc.react';
 import { GamesGridStore } from '../../stores/components';
 import ownTypes from '../../ioc/ownTypes';
-import Pagination from '../Pagination';
+import { Grid, Pagination } from '@mui/material';
 
 interface Props {
     filter: string;
@@ -23,17 +23,21 @@ const GamesGrid = observer((props: Props) => {
 
     return (
         <Container>
-            <Row md='3' className='g-4'>
+            <Grid container spacing={3}>
                 { store.games?.map((game, key) => (
-                    <Col key={key}>
+                    <Grid item key={key} lg={4} md={6} xs={12}>
                         <GameCard 
                         key={key}
                         game={game}
                         />
-                    </Col>
+                    </Grid>
                 )) }
-            </Row>
-            <Pagination total={store.totalPages} active={store.currentPage} onChange={(value) => {store.changePage(value, props.filter)}} />
+            </Grid>
+            <Grid container justifyContent='center'>
+                <Grid item>
+                    <Pagination className='p-4' color='secondary' count={store.totalPages} page={store.currentPage} onChange={(ev, value) => {store.changePage(value, props.filter)}} />
+                </Grid>
+            </Grid>
         </Container>
     )
 })

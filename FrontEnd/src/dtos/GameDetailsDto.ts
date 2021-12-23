@@ -1,9 +1,8 @@
-import { GenreType, LanguageType, SystemType } from '../enums'
-
 export default interface GameDetailsDto {
-    genres: GenreType[];
+    genres: string[];
     releaseDate: string;
-    languages: LanguageType[];
+    languages: string[];
     company: string;
-    systems: SystemType[];
+    systems: string[];
+    features: string[];
 }

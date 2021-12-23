@@ -1,4 +1,4 @@
-export default interface GameCardDto {
+export default interface CardOfGame {
     id: number;
     name: string;
     price: number;
